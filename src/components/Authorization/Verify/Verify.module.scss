@@ -1,0 +1,78 @@
+.form {
+  margin-top: 34px;
+
+  .form__btn {
+    max-width: 395px;
+    margin-top: 40px;
+  }
+
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  color: #ffffff;
+  font-family: 'Roboto Medium';
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 22px;
+  text-transform: uppercase;
+  height: 45px;
+  background-color: #159aff;
+  border: none;
+}
+
+.btn:hover {
+  cursor: pointer;
+  box-shadow: 0 1px 6px 2px rgba(0,0,0,0.2);
+}
+
+.btn:active, .btn:focus {
+  outline: none;
+}
+
+.verify {
+
+  .verify__text {
+    margin-top: 22px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+  }
+
+
+
+}
+
+.error {
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 6px;
+  width: 100%;
+  min-height: 75px;
+  background-color: #f8f8f8;
+  box-shadow: 0 2px 5px 2px rgba(#ff8484, 0.2);
+  margin-top: 10px;
+  padding-bottom: 20px;
+
+  .error__list {
+    margin: 0;
+  }
+
+  .error__title {
+    font-size: 16px;
+    font-family: 'Roboto Medium';
+    color: #ff8484;
+  }
+
+  .error__item {
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Roboto';
+    color: #ff8484;
+    margin-top: 5px;
+  }
+}
